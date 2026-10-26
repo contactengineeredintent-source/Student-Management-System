@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+header {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+.table-bordered tr,
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #000;
+}
+.student_logo_container {
+  border: 2px solid;
+  border-radius: 50px;
+  object-fit: cover;
+  overflow: hidden;
+}
